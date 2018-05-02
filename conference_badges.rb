@@ -9,9 +9,9 @@ def badge_maker(name)
 end
 
 
-def batch_badge_creator
+def batch_badge_creator(attendees)
   # should return a string that has each person's name: "Hello, my name is #{name}"
-  speakers.each do |x|
+  attendees.each do |x|
     badges.push("Hello, my name is #{x}.")
   end
   badges
