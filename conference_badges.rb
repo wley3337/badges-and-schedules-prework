@@ -1,7 +1,7 @@
 # Write your code here.
 
 speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace","Linus","Matz"]
-
+badges = []
 def batch_badge_creator
   # should return a string that has each person's name: "Hello, my name is #{name}"
   
