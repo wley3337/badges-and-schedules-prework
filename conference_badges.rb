@@ -14,6 +14,7 @@ def batch_badge_creator
   speakers.each do |x|
     badges.push("Hello, my name is #{x}.")
   end
+  badges
 end
 
 
