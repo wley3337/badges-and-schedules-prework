@@ -21,7 +21,7 @@ end
 def assign_rooms(attendees)
   #assign rooms 1-7 return a list of room assignments in f the form of: "Hello, #{name}! You'll be assigned to room #{room_number}!"
   attendees.each_with_index |x, index|
-  
+  room_assignments.push("Hello,#{x}! You'll be assigned to room #{index+1}")
   
 end
 
