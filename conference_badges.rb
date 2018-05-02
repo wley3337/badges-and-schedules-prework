@@ -9,4 +9,14 @@ end
 
 def assign_rooms
   #assign rooms 1-7 return a list of room assignments in f the form of: "Hello, #{name}! You'll be assigned to room #{room_number}!"
+  
+  
+end
+
+
+def printer
+  
+  #outputs the results of #batch_badge_creator and then #assign_rooms
+
+
 end
