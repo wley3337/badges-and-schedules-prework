@@ -5,6 +5,8 @@ badges = []
 room_assignments = []
 
 def badge_maker(array)
+  
+end
 def batch_badge_creator
   # should return a string that has each person's name: "Hello, my name is #{name}"
   speakers.each do |x|
