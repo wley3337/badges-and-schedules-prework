@@ -19,7 +19,7 @@ end
 
 def printer
   
-  #outputs the results of #batch_badge_creator and then #assign_rooms
+  #outputs the results of #batch_badge_creator (badges) and then #assign_rooms (room_assignments)
 
 
 end
