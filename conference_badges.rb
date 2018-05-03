@@ -18,7 +18,7 @@ def batch_badge_creator(attendees)
 end
 
 
-def assign_rooms
+def assign_rooms(attendees)
   #assign rooms 1-7 return a list of room assignments in f the form of: "Hello, #{name}! You'll be assigned to room #{room_number}!"
   speakers.each_with_index(1) do |x, index|
     room_assignments.push("Hello, #{x}! You'll be assigned to room #{index}")
