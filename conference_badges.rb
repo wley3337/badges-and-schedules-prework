@@ -1,8 +1,8 @@
 # Write your code here.
 
-speekers = ["Edsger", "Ada", "Charles", "Alan", "Grace","Linus","Matz"]
-badges1 = []
-room_assignments1 = []
+#speekers = ["Edsger", "Ada", "Charles", "Alan", "Grace","Linus","Matz"]
+#badges1 = []
+#room_assignments1 = []
 
 def badge_maker(name)
   "Hello, my name is #{name}."
