@@ -30,7 +30,7 @@ end
 def printer
   badges.each do |x|
     puts x 
-    
+  end
   
   #outputs the results of #batch_badge_creator (badges) and then #assign_rooms (room_assignments)
 
