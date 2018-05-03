@@ -11,6 +11,7 @@ end
 
 def batch_badge_creator(attendees)
   # should return a string that has each person's name: "Hello, my name is #{name}"
+  badges1 = []
   attendees.each do |x|
     badges1.push("Hello, my name is #{x}.")
   end
