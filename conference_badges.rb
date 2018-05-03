@@ -31,7 +31,7 @@ end
 def printer(attendees)
   #outputs the results of #batch_badge_creator (badges) and then #assign_rooms (room_assignments)
   
-  badges1.each do |x|
+  attendees.each do |x|
     puts "#{x}" 
   end
   room_assignments1.each do |x|
