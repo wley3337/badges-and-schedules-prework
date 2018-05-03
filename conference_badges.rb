@@ -31,13 +31,12 @@ end
 def printer(attendees)
   #outputs the results of #batch_badge_creator (badges) and then #assign_rooms (room_assignments)
   
-    batch_badge_creator(attendees).each do |x|
-      puts "#{x}"
-    
+  batch_badge_creator(attendees).each do |x|
+    puts "#{x}"
   end
-  attendees.each do |x|
-    assign_rooms(attendees).each do |x|
+  
+  assign_rooms(attendees).each do |x|
       puts "#{x}"
-    end
+  end
   end
 end
