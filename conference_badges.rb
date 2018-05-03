@@ -32,7 +32,9 @@ def printer(attendees)
   #outputs the results of #batch_badge_creator (badges) and then #assign_rooms (room_assignments)
   
   attendees.each do |x|
-    puts "#{batch_badge_creator(attendees)}"
+    batch_badge_creator(attendees).each do |x|
+      puts "#{x}"
+    end
   end
   attendees.each do |x|
     assign_rooms(attendees) do |x|
