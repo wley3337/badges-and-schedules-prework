@@ -28,6 +28,9 @@ end
 
 
 def printer
+  badges.each do |x|
+    puts x 
+    
   
   #outputs the results of #batch_badge_creator (badges) and then #assign_rooms (room_assignments)
 
