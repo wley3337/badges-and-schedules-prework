@@ -27,7 +27,7 @@ def assign_rooms(attendees)
 end
 
 
-def printer
+def printer(attendees)
   badges.each do |x|
     puts "#{x}" 
   end
